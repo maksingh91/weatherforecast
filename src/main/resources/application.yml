@@ -4,3 +4,11 @@ spring:
 
 server:
   port: 8080
+
+variables:
+  openweathermapapibaseurl: "https://api.openweathermap.org/data/2.5/forecast"
+  cityparam: "q"
+  appidparam: "appid"
+  cntparam: "cnt"
+  appid: d2929e9483efc82c82c32ee7e02d563e
+  cnt: 3

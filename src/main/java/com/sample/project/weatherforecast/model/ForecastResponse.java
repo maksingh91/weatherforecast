@@ -5,14 +5,15 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 @Component
 @Data
 public class ForecastResponse {
-    private Date date;
+    private String date;
     private String highTemp;
     private String lowTemp;
-    private List<String> predictions;
+    private List<String> predictions=new ArrayList<String>();
 }
