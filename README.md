@@ -17,3 +17,5 @@ docker run -p 8080:8080 mahaveer91/weatherforecast-cicd-image
 Access the API Swagger documentations at
 
 http://localhost:8080/swagger-ui/index.html#/
+
+<h2>Step 4 : Execute the API End point from Swagger document itself</h2>
