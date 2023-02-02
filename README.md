@@ -19,3 +19,6 @@ Access the API Swagger documentations at
 http://localhost:8080/swagger-ui/index.html#/
 
 <h2>Step 4 : Execute the API End point from Swagger document itself</h2>
+
+<h2>Step 5 : Refer Angular application code at https://github.com/maksingh91/weatherforecastui.git
+ 

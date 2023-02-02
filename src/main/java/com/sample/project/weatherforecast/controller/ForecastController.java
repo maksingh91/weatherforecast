@@ -15,6 +15,7 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,6 +30,7 @@ public class ForecastController {
     @Autowired
     ForecastService forecastService;
 
+    @CrossOrigin("*")
     @GetMapping(value = "/forecast/{city}", produces = MediaType.APPLICATION_JSON_VALUE)
     @Operation(
             summary = "Lists three days weather forecast.",
